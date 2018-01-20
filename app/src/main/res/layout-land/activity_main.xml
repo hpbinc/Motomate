@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:background="@drawable/simpleback">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_marginTop="77dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_width="310dp"
+        android:layout_height="200dp"
+        android:src="@drawable/mmagif2"
+        android:id="@+id/gifImageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_below="@+id/gifImageView"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/speed"
+        android:textSize="15dp"
+        android:text="Speed: 0.00 km/hr "/>
+
+    <Button
+
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_marginTop="340dp"
+
+        android:background="@drawable/rotater6"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/stopbutton"
+        android:onClick="back"/>
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="27dp"
+        android:background="@drawable/options"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:onClick="spider"
+        />
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="27dp"
+        android:background="@drawable/ratingbutton"
+        android:layout_marginTop="600dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="rating"
+        />
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="27dp"
+        android:background="@drawable/aboutpng"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="220dp"
+        android:layout_alignParentRight="true"
+        android:onClick="about"
+        />
+
+
+
+</RelativeLayout>

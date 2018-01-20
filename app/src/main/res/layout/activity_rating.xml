@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/simpleback">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed"
+            android:layout_marginTop="20dp"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:id="@+id/speed"/>
+
+
+        <RatingBar
+            android:rating="3.5"
+            android:stepSize="0.5"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="#ffd121"
+            android:clickable="false"
+            android:isIndicator="true"
+
+            android:id="@+id/r1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acc/Braking"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:paddingTop="30dp"
+            android:id="@+id/acc"/>
+
+        <RatingBar
+            android:rating="3.5"
+            android:stepSize="0.5"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="#ffd121"
+            android:isIndicator="true"
+            android:clickable="false"
+            android:id="@+id/r2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turning"
+            android:textColor="#FFF"
+            android:textSize="25dp"
+            android:paddingTop="30dp"
+            android:id="@+id/turning"/>
+
+
+        <RatingBar
+            android:rating="3.5"
+            android:stepSize="0.5"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:progressTint="#ffd121"
+            android:clickable="false"
+            android:isIndicator="true"
+            android:id="@+id/r3" />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overall Rating"
+        android:textSize="30dp"
+        android:layout_marginTop="440dp"
+        android:textColor="#FFF"
+        android:id="@+id/driver"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+
+    <com.hsalf.smilerating.SmileRating
+        android:id="@+id/smile_rating"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driver"
+        android:contentDescription="@string/app_name"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:placeHolderBackgroundColor="#19547e"
+        app:drawingColor="#19547e"
+        app:normalColor="#ffd121"
+        android:isIndicator="true"
+
+
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+
+
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "970287905201",
+    "firebase_url": "https://motomate-2253c.firebaseio.com",
+    "project_id": "motomate-2253c",
+    "storage_bucket": "motomate-2253c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970287905201:android:06365d396d4a830f",
+        "android_client_info": {
+          "package_name": "com.hashim.motomate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970287905201-kld57n9qai3l3f4cl1o0de5s138ihskt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hashim.motomate",
+            "certificate_hash": "65b2c17f7b49668342b1c27d851000bb0c89a61d"
+          }
+        },
+        {
+          "client_id": "970287905201-2hlf9v4qggsad7m8hdqei1meav9ehjaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBc2zGLY9N3zHn4VKpPpfqiIXx-w8kVs2U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970287905201-2hlf9v4qggsad7m8hdqei1meav9ehjaj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
